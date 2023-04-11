@@ -12,7 +12,7 @@ module.exports = () => {
 
   //MIDDLEWARES
   app.use(cors({
-    origin: ['http://localhost:3000','https://openlab-react.onrender.com']
+    origin: ['http://localhost:3000','https://openlab-react.onrender.com', 'https://openlab-react-b7ph.onrender.com']
   }))
   app.use(bodyParser.json());
 
